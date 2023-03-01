@@ -1,6 +1,12 @@
+
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #f1f1f1;
 }
 
 html {
@@ -8,4 +14,10 @@ html {
     height: 100%;
     -webkit-overflow-scrolling: touch;
     /* overflow-scrolling: touch */;
+}
+
+body {
+    overflow-y: visible;
+    position: relative;
+    height: unset;
 }
