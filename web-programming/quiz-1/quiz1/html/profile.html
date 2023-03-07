@@ -1,1 +1,79 @@
-ECHO is on.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Q-1 | 5025201159 </title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                unn: '#5b92e5',
+                mcrn: '#6A180F',
+              }
+            }
+          }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Start of Profile -->
+
+    <section class="banner max-w-full relative z-10 flex flex-col sm:flex-row justify-center align-middle items-center h-80 p-32 sm:pt-40 text-left gap-[30px]">
+        <div class="absolute w-full h-screen top-0 left-0 bg-cover bg-center bg-no-repeat bg-fixed bg-[url('https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80')]">
+            <div class="absolute w-full h-screen top-0 left-0 bg-blue-600/30"></div>
+        </div>
+        <h1 class="text-gray-100 text-4xl md:text-6xl display-2 text-center relative">
+            My
+            <br class="sm:hidden" />
+            <span class="text-yellow-400 font-semibold text-6xl"> ~ Profile </span>
+        </h1>
+    </section>
+    <section class="relative max-w-full h-[300px] bg-transparent justify-center align-middle z-20">
+        <img src="../assets/images/web-dev-transformed.png" alt="web-dev" class="absolute w-[600px] h-[600px] -top-60 right-6 z-20" />
+    </section>
+    <section class="pt-40 pb-32 relative">
+        <div class="absolute w-full h-screen top-0 left-0 bg-cover bg-center bg-no-repeat bg-fixed bg-[url('../assets/images/summarecon-bekasi.jpg')]">
+            <div class="absolute w-full h-screen top-0 left-0 bg-blue-600/30"></div>
+        </div>
+        <h1 class="text-gray-100 text-4xl md:text-6xl display-2 text-center relative">
+            My Hometown
+            <br class="sm:hidden" />
+            <span class="text-yellow-400 font-semibold text-6xl"> ~ Bekasi </span>
+        </h1>
+    </section>
+    <section class="max-w-full h-[250px]">
+    </section>
+
+    <!-- End of Profile -->
+
+
+      <!-- Start of Navbar -->
+
+      <nav class="fixed z-50 top-0 left-0 w-full h-[60px] flex align-middle justify-center py-3 bg-[#5b92e5] shadow-md">
+        <div class="text-white font-thin md:space-x-16">
+          <a class="no-underline ml-[20px] text-lg hover:scale-120 hover:transition-all hover:text-blue-200 sm:mr-96" href="index.html"> Log Out </a>
+          <a class="no-underline ml-[20px] text-lg hover:scale-120 hover:transition-all hover:text-blue-200 font-bold text-yellow-400" href="profile.html"> Profile </a>
+          <a class="no-underline ml-[20px] text-lg hover:scale-120 hover:transition-all hover:text-blue-200" href="hometown.html"> Hometown </a>
+          <a class="no-underline ml-[20px] text-lg hover:scale-120 hover:transition-all hover:text-blue-200" href="tourist.html"> Tourist </a>
+        </div>
+      </nav>
+  
+      <!-- End of Navbar -->
+
+</body>
+<script src="../scripts/main.js"></script>
+</html>
